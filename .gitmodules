@@ -1,0 +1,3 @@
+[submodule "lib/tmi.js"]
+	path = lib/tmi.js
+	url = https://github.com/tmtrademark/tmi.js
