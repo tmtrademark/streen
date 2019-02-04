@@ -32,10 +32,6 @@
 		}
 	],
 	"env": {
-		"DEPLOY_TASKS": {
-			"description": "A space-separated list of npm scripts to run on each deploy. The \"migrate\" script is used to run the necessary PostgreSQL database migrations.",
-			"value": ""
-		},
 		"PERSISTENT": {
 			"description": "If true, some application statte (such as the list of channels to monitor via the !notifyoffline command) will be persisted into Postgres.",
 			"value": "true"
