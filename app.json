@@ -34,7 +34,7 @@
 	"env": {
 		"DEPLOY_TASKS": {
 			"description": "A space-separated list of npm scripts to run on each deploy. The \"migrate\" script is used to run the necessary PostgreSQL database migrations.",
-			"value": "migrate"
+			"value": ""
 		},
 		"PERSISTENT": {
 			"description": "If true, some application statte (such as the list of channels to monitor via the !notifyoffline command) will be persisted into Postgres.",
@@ -52,14 +52,6 @@
 		},
 		"TWITCH_PASSWORD": {
 			"description": "The password of the Twitch account to connect to chat as."
-		},
-		"SLACK_BOT_TOKEN": {
-			"description": "(Optional) The token of a Slack bot, used to post status messages.",
-			"required": false
-		},
-		"SLACK_STATUS_CHANNEL": {
-			"description": "(Optional) The Slack channel in which to post status updates.",
-			"required": false
 		}
 	}
 }
