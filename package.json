@@ -45,7 +45,7 @@
   "scripts": {
     "static": "eslint server.js lib/**/*.js",
     "test": "npm run static && nyc ava --timeout=20s",
-    "start": "node server.js",
+    "start": "node server.js"
   },
   "greenkeeper": {
     "ignore": [
