@@ -47,7 +47,7 @@
     "test": "npm run static && nyc ava --timeout=20s",
     "start": "node server.js",
     "create_migration": "node-pg-migrate create",
-    "migrate": "node-pg-migrate up"
+    "migrate": "node-pg-migrate up -- --no-check-order"
   },
   "greenkeeper": {
     "ignore": [
